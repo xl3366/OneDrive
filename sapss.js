@@ -1111,7 +1111,7 @@ function writeKetang(){
 if( typeof iComet == 'undefined'  ){
 	 try{ 
 		 jQuery.ajax({
-			  url: "/res/javascript/icomet.js",
+			  url: "http://cdn3.pigai.org//res/javascript/icomet.js",
 			  dataType: "script",
 			  cache: true
 		});
